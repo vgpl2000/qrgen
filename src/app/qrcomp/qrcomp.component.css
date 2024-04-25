@@ -1,0 +1,29 @@
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 5vw;
+    gap: 0;
+    height: 80vh;
+}
+.linkTxt{
+    width: 50vw;
+    text-align: center;
+    padding: 2vh 2vw;
+    font-size: 24px;
+}
+.btn{
+    padding: 1vh 2vw;
+    font-size: 24px;
+    letter-spacing: 1.1px;
+    height: fit-content;
+}
+.qrClass{
+    border-radius: 4px;
+}
+
+.colorDiv{
+    display: flex;
+    flex-direction: row;
+}

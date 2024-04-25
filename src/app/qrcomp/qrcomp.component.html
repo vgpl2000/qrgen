@@ -1,0 +1,8 @@
+<div class="mainDiv">
+    <input class="linkTxt" nz-input placeholder="Enter the link to generate QR Code" [(ngModel)]="link" type="url" [nzStatus]="inputStatus" (keyup.enter)="genQR()"/>
+    <button class="btn" nz-button nzType="primary" (click)="genQR()" [nzLoading]="isLoadingButton">Generate QR</button>
+    
+    <nz-qrcode id="download" class="qrClass" [nzValue]="linkToQR" [nzStatus]="qrLoading" [nzBgColor]="qrbg" [nzColor]="qrcolor"></nz-qrcode>
+   
+    <nz-color-picker nzShowText></nz-color-picker>
+</div>
