@@ -15,7 +15,9 @@ import { NzInputModule } from 'ng-zorro-antd/input';
 import { NzButtonModule } from 'ng-zorro-antd/button';
 import { QrcompComponent } from './qrcomp/qrcomp.component';
 import { NzQRCodeModule } from 'ng-zorro-antd/qr-code';
+import { NzMessageModule } from 'ng-zorro-antd/message';
 import { NzColorPickerModule } from 'ng-zorro-antd/color-picker';
+import { NzPopoverModule } from 'ng-zorro-antd/popover';
 
 
 registerLocaleData(en);
@@ -32,7 +34,9 @@ registerLocaleData(en);
     NzInputModule,
     NzButtonModule,
     NzQRCodeModule,
-    NzColorPickerModule
+    NzMessageModule,
+    NzColorPickerModule,
+    NzPopoverModule
   ],
   providers: [
     provideClientHydration(),

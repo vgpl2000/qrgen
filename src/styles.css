@@ -2,7 +2,14 @@
     font-family: "Roboto Mono", monospace;
     font-optical-sizing: auto;
 }
-body{
+
+body {
     padding: 0;
     margin: 0;
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: repeat;
+    background-image: url("data:image/svg+xml;utf8,%3Csvg width=%222000%22 height=%221400%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3ClinearGradient id=%22a%22 gradientTransform=%22rotate(90)%22%3E%3Cstop offset=%225%25%22 stop-color=%22%23f9faff%22%2F%3E%3Cstop offset=%2295%25%22 stop-color=%22%23fafbff%22%2F%3E%3C%2FlinearGradient%3E%3ClinearGradient id=%22b%22 gradientTransform=%22rotate(90)%22%3E%3Cstop offset=%225%25%22 stop-color=%22%23f3f4ff%22%2F%3E%3Cstop offset=%2295%25%22 stop-color=%22%23f6f6ff%22%2F%3E%3C%2FlinearGradient%3E%3ClinearGradient id=%22c%22 gradientTransform=%22rotate(90)%22%3E%3Cstop offset=%225%25%22 stop-color=%22%23f9f6fc%22%2F%3E%3Cstop offset=%2295%25%22 stop-color=%22%23faf8fc%22%2F%3E%3C%2FlinearGradient%3E%3ClinearGradient id=%22d%22 gradientTransform=%22rotate(90)%22%3E%3Cstop offset=%225%25%22 stop-color=%22%23fff8f8%22%2F%3E%3Cstop offset=%2295%25%22 stop-color=%22%23fff9f9%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Cpath fill=%22%23fff%22 d=%22M0 0h2000v1400H0z%22%2F%3E%3Cpath d=%22M0 280c115.396 12.712 230.791 25.424 336 15s200.23-43.982 316-51c115.77-7.018 252.286 12.506 369 12 116.714-.506 213.624-21.043 319-8s219.217 59.665 340 71c120.783 11.335 248.51-12.619 303-25 54.49-12.381 35.745-13.19 57-14l-40 1120H0Z%22 fill=%22url(%23a)%22%2F%3E%3Cpath d=%22M0 560c114.412-1.534 228.825-3.068 340 1 111.175 4.068 219.113 13.74 331 15 111.887 1.26 227.724-5.889 336-13 108.276-7.111 208.992-14.184 314-27 105.008-12.816 214.31-31.373 343-16 128.69 15.373 276.769 64.678 336 77 59.231 12.322 29.616-12.34 40-37l-40 840H0Z%22 fill=%22url(%23b)%22%2F%3E%3Cpath d=%22M0 840c124.087-14.082 248.175-28.164 352-30 103.825-1.836 187.388 8.572 295 6 107.612-2.572 239.275-18.126 360-13 120.725 5.126 230.514 30.93 340 35 109.486 4.07 218.67-13.597 343-17 124.33-3.403 263.809 7.456 318 13 54.191 5.544 23.096 5.772 32 6l-40 560H0Z%22 fill=%22url(%23c)%22%2F%3E%3Cpath d=%22M0 1120c121.658 5.904 243.316 11.808 351-1s201.393-44.327 310-37c108.607 7.327 232.11 53.5 347 59 114.89 5.5 221.166-29.67 329-42 107.834-12.33 217.224-1.82 336 15 118.776 16.82 246.936 39.948 303 42 56.064 2.052 40.032-16.974 64-36l-40 280H0Z%22 fill=%22url(%23d)%22%2F%3E%3C%2Fsvg%3E");
+
 }
